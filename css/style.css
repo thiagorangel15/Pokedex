@@ -42,22 +42,27 @@ main{
 }
 
 .pokedata{
+    background-color: red;
+    width:fit-content;
+    height:fit-content;
     position: absolute;
-    font-size: clamp(8px,5rem,10px);
+    font-size: 1.3vh;
     bottom:42%;
-    right:35%;
+    right:32%;
     text-transform: capitalize;
 
 }
 
 .form{
+    width:35%;
+    height:5%;
     position: absolute;
-    bottom:10%;
-    right:16%;
+    bottom:9%;
+    right:30%;
 }
 input{
     height:100%;
-    width:80%;
+    width:100%;
     outline: none;
     padding:1%;
 }
